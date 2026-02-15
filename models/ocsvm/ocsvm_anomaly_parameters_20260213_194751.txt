@@ -1,0 +1,21 @@
+{
+    "MODEL_TYPE": "OneClassSVM",
+    "METRIC_NAMES": [
+        "load-15m",
+        "cpu-user",
+        "cpu-system",
+        "sys-fork-rate",
+        "sys-interrupt-rate",
+        "sys-context-switch-rate"
+    ],
+    "SEQ_LEN": 240,
+    "nu": 0.05,
+    "gamma": "scale",
+    "kernel": "rbf",
+    "n_samples_train": 60235,
+    "n_features_input": 1440,
+    "n_support_vectors": 4218,
+    "intercept": -2.091060748480149,
+    "SCALER_TYPE": "StandardScaler",
+    "trained at": "20260213_194751"
+}
