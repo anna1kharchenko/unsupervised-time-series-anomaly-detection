@@ -15,7 +15,7 @@ The project utilizes the open-source Westermo Test System Performance dataset (s
 3.	**Anomaly Synthesis**: Using the CAP algorithm, various anomalies (trends, spikes, and shifts) were integrated into the test set while preserving natural seasonality to test model robustness.
 
 
-![Circadian Rhythms for load-15.](./figures/cir-rhytmns-load-15 "Circadian Rhythms for load-15.")
+![Circadian Rhythms for load-15.](./figures/cir-rhytmns-load-15.png "Circadian Rhythms for load-15.")
 
 **Figure 1:** Circadian Rhythms for load-15 metric.
 
