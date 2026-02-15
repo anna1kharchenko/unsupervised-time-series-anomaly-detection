@@ -20,6 +20,12 @@ The project utilizes the open-source Westermo Test System Performance dataset (s
 **Figure 1:** Circadian Rhythms for load-15 metric.
 
 
+---
+![CAPMix.](./figures/CAPMix.png "CAPMix.")
+
+**Figure 2:** Generated anomalies using CAPMix.
+
+
 
 # 3. Obtained Results
 
@@ -34,7 +40,7 @@ The project utilizes the open-source Westermo Test System Performance dataset (s
 
 ![ROC and Precision-Recall Curves Visualization.](./figures/pr-roc-auc.png "ROC and Precision-Recall Curves Visualization.")
 
-**Figure 2:** ROC and Precision-Recall Curves Visualization.
+**Figure 3:** ROC and Precision-Recall Curves Visualization.
 
 Analyzing the ROC Curve, we observe that the One-Class SVM curve is located closest to the upper-left corner. This indicates that it provides the best separation between “normal” and “anomalous” data while maintaining a minimal error rate.
 
