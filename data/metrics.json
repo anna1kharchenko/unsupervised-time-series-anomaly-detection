@@ -1,0 +1,8 @@
+[
+  "load-15m",
+  "cpu-user",
+  "cpu-system",
+  "sys-fork-rate",
+  "sys-interrupt-rate",
+  "sys-context-switch-rate"
+]
