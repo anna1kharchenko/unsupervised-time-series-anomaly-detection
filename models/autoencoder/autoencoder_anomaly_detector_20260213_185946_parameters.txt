@@ -1,0 +1,36 @@
+{
+    "METRIC_NAMES": [
+        "load-15m",
+        "cpu-user",
+        "cpu-system",
+        "sys-fork-rate",
+        "sys-interrupt-rate",
+        "sys-context-switch-rate"
+    ],
+    "SEQ_LEN": 240,
+    "BATCH_SIZE": 64,
+    "EPOCHS": 1,
+    "LEARNING_RATE": 0.001,
+    "VAL_RATIO": 0.1,
+    "N_FEATURES": 6,
+    "FILTERS_1": 64,
+    "FILTERS_2": 128,
+    "KERNEL_SIZE_1": 3,
+    "KERNEL_SIZE_2": 5,
+    "LSTM_UNITS": 128,
+    "X_train.shape": [
+        54211,
+        240,
+        6
+    ],
+    "X_val.shape": [
+        6024,
+        240,
+        6
+    ],
+    "Final Training Loss": 0.910249,
+    "Final Validation  Loss": 1.190742,
+    "Total Training Time (second)": 89,
+    "SCALER_TYPE": "StandardScaler",
+    "trained at": "20260213_185946"
+}

@@ -1,0 +1,20 @@
+{
+    "MODEL_TYPE": "IsolationForest",
+    "TRAIN_TIMESTAMP": "20260213_201837",
+    "METRIC_NAMES": [
+        "load-15m",
+        "cpu-user",
+        "cpu-system",
+        "sys-fork-rate",
+        "sys-interrupt-rate",
+        "sys-context-switch-rate"
+    ],
+    "SEQ_LEN": 240,
+    "N_ESTIMATORS": 100,
+    "CONTAMINATION": "0.03",
+    "RANDOM_STATE": 42,
+    "INPUT_SHAPE_2D": "(60235, 1440)",
+    "SCALER_TYPE": "StandardScaler",
+    "SCORE_MIN": -0.1158413285982629,
+    "SCORE_MAX": 0.11874907087489589
+}
