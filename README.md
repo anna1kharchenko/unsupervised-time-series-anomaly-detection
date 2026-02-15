@@ -2,7 +2,7 @@
 This project investigates and compares unsupervised learning methods for anomaly detection within multivariate time series of server performance metrics.
 # 1. Key Features:
 - **Multivariate Analysis**: Simultaneous processing of 6 interrelated metrics: load-15m, cpu-user, cpu-system, sys-fork-rate, sys-interrupt-rate, and sys-context-switch-rate.
-- **CAP Algorithm (Cut-Add-Paste)** [1]: Employs a synthetic anomaly injection method to objectively evaluate model performance in the absence of labeled data.
+- **CAP Algorithm (Cut-Add-Paste)** : Employs a synthetic anomaly injection method to objectively evaluate model performance in the absence of labeled data [1].
 - **Hybrid Deep Learning Architecture**: A CNN-LSTM Autoencoder where CNN layers extract local features and LSTM layers capture long-term temporal dependencies.
 - **Comparative Analysis**: Benchmarking the deep learning approach against classical machine learning methods (Isolation Forest and One-Class SVM).
 
